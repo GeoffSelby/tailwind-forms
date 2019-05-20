@@ -1,0 +1,32 @@
+{
+  "name": "tailwind-forms",
+  "version": "1.0.0",
+  "description": "Tailwind CSS plugin to add better form styling with unlimited customization",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeoffSelby/tailwind-forms.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "plugins"
+  ],
+  "author": "Geoff Selby <geoff@geoffcodesthings.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GeoffSelby/tailwind-forms/issues"
+  },
+  "homepage": "https://github.com/GeoffSelby/tailwind-forms#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "jest": "^24.8.0",
+    "jest-matcher-css": "^1.0.3",
+    "postcss": "^7.0.16",
+    "tailwindcss": "^1.0.1"
+  }
+}
