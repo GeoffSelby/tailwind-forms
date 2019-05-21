@@ -1,4 +1,6 @@
-# Basic Form Styles Plugin for Tailwind CSS
+# Tailwind Forms
+
+>**HEAVILY** inspired by Adam Wathan's [Tailwind Form Styles](https://github.com/adamwathan/tailwindcss-form-styles), basically just the installable package version to use in your projects.
 
 ## Installation
 
