@@ -26,7 +26,6 @@ input[type=checkbox]:checked + .form-checkbox, input[type=checkbox].form-checkbo
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #63b3ed;
 }
 
 .form-radio {
@@ -57,7 +56,6 @@ input[type=radio]:checked + .form-radio, input[type=radio].form-radio:checked {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #63b3ed;
 }
 
 .form-input, .form-textarea, .form-multiselect {
