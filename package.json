@@ -1,6 +1,6 @@
 {
   "name": "tailwind-forms",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Tailwind CSS plugin to add better form styling with unlimited customization",
   "main": "index.js",
   "scripts": {
