@@ -1,5 +1,10 @@
 # Tailwind Forms
 
+<p>
+    <a href="https://travis-ci.org/GeoffSelby/tailwind-forms"><img src="https://travis-ci.org/GeoffSelby/tailwind-forms.svg?branch=master" alt="Build Status"></a>
+    <a href="https://github.com/GeoffSelby/tailwind-forms/releases"><img src="https://img.shields.io/npm/v/tailwind-forms.svg" alt="Latest Release"></a>
+</p>
+
 >**HEAVILY** inspired by Adam Wathan's [Tailwind Form Styles](https://github.com/adamwathan/tailwindcss-form-styles), basically just the installable package version to use in your projects.
 
 ## Installation
