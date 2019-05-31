@@ -104,6 +104,45 @@ module.exports = () => {
           borderColor: defaultTheme.colors.blue[400],
         },
       },
+      '.form-input-group': {
+        display: 'flex',
+        flexWrap: 'wrap',
+        alignItems: 'stretch',
+      },
+      '.form-input-group-left': {
+        borderTopRightRadius: 0,
+        borderBottomRightRadius: 0,
+        '& > *': {
+          display: 'flex',
+          alignItems: 'center',
+          lineHeight: theme('lineHeight.normal', defaultTheme.lineHeight.normal),
+          paddingLeft: theme('spacing.5', defaultTheme.spacing[5]),
+          paddingRight: theme('spacing.5', defaultTheme.spacing[5]),
+          height: '100%',
+          borderRadius: `${theme('borderRadius.default', defaultTheme.borderRadius.default)} 0 0 ${theme('borderRadius.default', defaultTheme.borderRadius.default)}`,
+        },
+      },
+      '.form-input-group-right': {
+        display: 'flex',
+        marginRight: '-1px',
+        borderRadius: `0 ${theme('borderRadius.default', defaultTheme.borderRadius.default)} ${theme('borderRadius.default', defaultTheme.borderRadius.default)} 0`,
+        '& > *': {
+          display: 'flex',
+          alignItems: 'center',
+          borderRadius: `0 ${theme('borderRadius.default', defaultTheme.borderRadius.default)} ${theme('borderRadius.default', defaultTheme.borderRadius.default)} 0`,
+          whiteSpace: 'nowrap',
+          lineHeight: theme('lineHeight.normal', defaultTheme.lineHeight.normal),
+          paddingLeft: theme('spacing.5', defaultTheme.spacing[5]),
+          paddingRight: theme('spacing.5', defaultTheme.spacing[5]),
+        },
+      },
+      '.form-input.form-input-group-left, .form-input.form-input-group-right': {
+        flex: '1 1 0%',
+      },
+      '.form-input-group-left > button, .form-input-group-right > button': {
+        paddingLeft: theme('spacing.5', defaultTheme.spacing[5]),
+        paddingRight: theme('spacing.5', defaultTheme.spacing[5]),
+      },
     });
   };
 };

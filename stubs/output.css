@@ -99,6 +99,52 @@ input[type=radio]:checked + .form-radio, input[type=radio].form-radio:checked {
   border-color: #63b3ed;
 }
 
+.form-input-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.form-input-group-left {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.form-input-group-left > * {
+  display: flex;
+  align-items: center;
+  line-height: 1.5;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  height: 100%;
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.form-input-group-right {
+  display: flex;
+  margin-right: -1px;
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.form-input-group-right > * {
+  display: flex;
+  align-items: center;
+  border-radius: 0 0.25rem 0.25rem 0;
+  white-space: nowrap;
+  line-height: 1.5;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.form-input.form-input-group-left, .form-input.form-input-group-right {
+  flex: 1 1 0%;
+}
+
+.form-input-group-left > button, .form-input-group-right > button {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

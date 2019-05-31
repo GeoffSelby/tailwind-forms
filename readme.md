@@ -5,7 +5,7 @@
     <a href="https://github.com/GeoffSelby/tailwind-forms/releases"><img src="https://img.shields.io/npm/v/tailwind-forms.svg" alt="Latest Release"></a>
 </p>
 
->**HEAVILY** inspired by Adam Wathan's [Tailwind Form Styles](https://github.com/adamwathan/tailwindcss-form-styles), basically just the installable package version to use in your projects.
+>**HEAVILY** inspired by Adam Wathan's [Tailwind Form Styles](https://github.com/adamwathan/tailwindcss-form-styles)
 
 ## Installation
 
@@ -197,5 +197,41 @@ npm install tailwind-forms
       </label>
     </div>
   </div>
+</div>
+```
+
+### Input Groups
+
+```html
+<!-- Button Right -->
+<div class="form-input-group w-1/2 mx-auto mb-4 relative">
+  <input type="text" class="form-input form-input-group-left relative" placeholder="Username">
+  <div class="form-input-group-right">
+    <button class="bg-blue-600 text-white px-6 hover:bg-blue-500">Submit</button>
+  </div>	
+</div>
+  
+<!--  Text Right  -->
+<div class="form-input-group w-1/2 mx-auto mb-4 relative">
+  <input type="text" class="form-input form-input-group-left relative" placeholder="john_doe">
+  <div class="form-input-group-right">
+    <span class="bg-gray-300 text-gray-600">@example.com</span>
+  </div>	
+</div>
+  
+<!--  Button Left  -->
+<div class="form-input-group w-1/2 mx-auto mb-4 relative">
+  <div class="form-input-group-left">
+    <button class="bg-blue-600 text-white px-6 hover:bg-blue-500">Submit</button>
+  </div>
+  <input type="text" class="form-input form-input-group-right" placeholder="Username">
+</div>
+  
+<!--  Text Left  -->
+<div class="form-input-group w-1/2 mx-auto mb-4 relative">
+  <div class="form-input-group-left">
+    <span class="bg-gray-300 text-gray-600">@</span>
+  </div>
+  <input type="text" class="form-input form-input-group-right" placeholder="Username">
 </div>
 ```
