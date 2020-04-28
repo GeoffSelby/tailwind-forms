@@ -76,6 +76,30 @@ npm install tailwind-forms
 </label>
 ```
 
+### Error States
+
+```html
+<!-- Form Error -->
+<label class="block">
+  <span class="text-gray-700">Name</span>
+  <input type="email" class="form-input form-error mt-1 block w-full" placeholder="John Appleseed"/>
+</label>
+
+<!-- Form Warning -->
+<label class="block">
+  <span class="text-gray-700">Name</span>
+  <input type="email" class="form-input form-warning mt-1 block w-full" placeholder="John Appleseed"/>
+</label>
+
+<!-- Form Success -->
+<label class="block">
+  <span class="text-gray-700">Name</span>
+  <input type="email" class="form-input form-success mt-1 block w-full" placeholder="John Appleseed"/>
+</label>
+```
+
+> Error states work on all text inputs, textareas, select elements, and multiselect elements.
+
 ### Checkbox
 
 ```html

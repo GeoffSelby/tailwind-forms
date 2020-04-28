@@ -99,6 +99,21 @@ input[type=radio]:checked + .form-radio, input[type=radio].form-radio:checked {
   border-color: #63b3ed;
 }
 
+.form-error {
+  border-color: #f56565;
+  color: #f56565;
+}
+
+.form-warning {
+  border-color: #ecc94b;
+  color: #ecc94b;
+}
+
+.form-success {
+  border-color: #48bb78;
+  color: #48bb78;
+}
+
 .form-input-group {
   display: flex;
   flex-wrap: wrap;
